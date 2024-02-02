@@ -7,3 +7,5 @@ for course in courses:
     print(f'{course} : {our_dict.get(course)}')
 
 print('Приправить политической историей. Добавить математические модели по вкусу.')
+
+# TEST FOR GIT HUB
