@@ -14,6 +14,6 @@ for i in L:
     print(i)
 
 for i in L:
-    #print(math.log(i))
-    pass
+    print(math.log(i)) #Ноль не является положительным числом.
+    #pass
 
