@@ -1,5 +1,6 @@
 l = [1,2,3,4] # Дан список чисел
 print(len(l))
+
 for i in range(len(l)):
     a = l[i] + l[i-1]
     print(a)
