@@ -44,7 +44,7 @@ def str_lower(string):
     print(lower_words)
 
 
-str_lower('Я тут кое-что тестирую')
+str_lower(input('Введите предложение: '))
 
 
 def my_log(list_of_numbers):
