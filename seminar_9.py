@@ -69,6 +69,7 @@ data['Survived'] = data['Survived'].astype(int)
 # 15. Выбор только числовых столбцов перед применением функции mean()
 numeric_data = data.select_dtypes(include='number')
 print(numeric_data)
+
 # 16. Вывод средних значений всех числовых переменных по группам Survived
 print("\nСредние значения всех числовых переменных по группам Survived:")
 print(numeric_data.groupby('Survived').mean())
