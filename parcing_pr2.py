@@ -22,6 +22,8 @@ for row in rows:
     cells = [cell.get_text(strip=True) for cell in cells]
     data.append(cells)
 
+print(data)
+
 df = pd.DataFrame(data[1:], columns=[header.get_text(strip=True) for header in rows[0].find_all('th')])
 print(df.head())
 
